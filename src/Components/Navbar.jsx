@@ -45,14 +45,14 @@ const Navbar = () => {
           <Link to="/" className="text-xl font-bold flex items-center"> <img className="h-10" src={logo} alt="" />HERO.IO</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
-            <li>
+          <ul className="menu-horizontal gap-6">
+            <li className="hover:text-purple-600 hover:underline transition-colors duration-300">
               <Link to="/">Home</Link>
             </li>
-            <li>
+            <li className="hover:text-purple-600 hover:underline transition-colors duration-300">
               <Link to="/apps">Apps</Link>
             </li>
-            <li>
+            <li className="hover:text-purple-600 hover:underline transition-colors duration-300">
               <Link to="/installation">Installation</Link>
             </li>
           </ul>
