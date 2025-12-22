@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router";
 
 // {
 //     "image": "https://i.ibb.co.com/vv4Gz5LZ/bb9923bd5779f9c3673dfcb722bb3ee4.jpg",
@@ -22,6 +23,7 @@ const AppsCard = ({ app }) => {
   console.log(app);
   const { image, title, size, ratingAvg } = app;
   return (
+    <Link to={`/app/${app.id}`}>
     <div className="card bg-base-100 shadow-sm hover:shadow-lg transition-shadow hover:scale-105 transition ease-in-out duration-300">
       <figure className="h-48 overflow-hidden">
         <img className="w-full object-cover"
@@ -44,6 +46,7 @@ const AppsCard = ({ app }) => {
         </div>
       </div>
     </div>
+    </Link>
   );
 };
 

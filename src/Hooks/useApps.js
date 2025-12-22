@@ -7,11 +7,21 @@ const useApps = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    setLoading(true);
-    axios("/appsData.json")
-      .then((res) => setAppsData(res.data))
-      .catch((err) => setError(err))
-      .finally(() => setLoading(false))
+    //
+    const fetchAppsData = async () => {
+      setLoading(true);
+      axios
+        .get("/appsData.json")
+        .then((response) => {
+          console.log(response);
+          setAppsData(response.data);
+          setLoading(false);
+        })
+        .catch((error) => {
+          console.error("Error fetching the local JSON file:", error);
+        });
+    };
+    fetchAppsData();
   }, []);
 
   return { appsData, loading, error };
