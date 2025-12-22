@@ -16,6 +16,9 @@ const AppsDetails = () => {
     const existingList = JSON.parse(localStorage.getItem("installedApp"));
     let updatedList = [];
     if (existingList) {
+      const isDuplicate = existingList.some((a) => a.id === appDetails.id);
+      if (isDuplicate) return alert("App is proceed to install.");
+
       updatedList = [...existingList, appDetails];
     } else {
       updatedList.push(appDetails);
@@ -23,7 +26,6 @@ const AppsDetails = () => {
     localStorage.setItem("installedApp", JSON.stringify(updatedList));
   };
 
-  
   return (
     <div>
       <div className="card bg-base-100 shadow-sm hover:shadow-lg transition-shadow duration-300">

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router";
-import logo from '../assets/logo.png';
+import logo from "../assets/logo.png";
+import gitHub from "../assets/github-logo-png_seeklogo-304612.png";
 
 const Navbar = () => {
   return (
@@ -34,7 +35,6 @@ const Navbar = () => {
               </li>
               <li>
                 <Link to="/apps">Apps</Link>
-                
               </li>
               <li>
                 <Link to="/installation">Installation</Link>
@@ -42,7 +42,11 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <Link to="/" className="text-xl font-bold flex items-center"> <img className="h-10" src={logo} alt="" />HERO.IO</Link>
+          <Link to="/" className="text-xl font-bold flex items-center">
+            {" "}
+            <img className="h-10" src={logo} alt="" />
+            HERO.IO
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu-horizontal gap-6">
@@ -58,7 +62,16 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <a className="btn">Contribute</a>
+          {/* <a className="btn">Contribute</a> */}
+          <Link
+            to="https://github.com/AhmetChatgami"
+            target="_blank"
+            className="flex justify-center mt-4 mb-2 btn bg-[#632EE3] hover:bg-purple-800 text-white"
+          >
+            {" "}
+            <img className="h-6" src={gitHub} alt="" />
+            <p>Contribute</p>
+          </Link>
         </div>
       </div>
     </div>
