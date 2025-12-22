@@ -1,0 +1,364 @@
+[
+  {
+    "image": "https://i.ibb.co.com/vv4Gz5LZ/bb9923bd5779f9c3673dfcb722bb3ee4.jpg",
+    "title": "ZenFlow: Daily Meditation",
+    "companyName": "Serenity Labs",
+    "id": 101,
+    "description": "Find your inner peace with guided meditations and breathing exercises designed for stress relief.",
+    "size": 45.2,
+    "reviews": 1240,
+    "ratingAvg": 4.8,
+    "downloads": 50000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 30 },
+      { "name": "3 star", "count": 50 },
+      { "name": "4 star", "count": 140 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/7tLcPdxH/94541c6510c95b8d11960e25b39545c7.jpg",
+    "title": "PixelQuest RPG",
+    "companyName": "RetroBit Games",
+    "id": 102,
+    "description": "An 8-bit adventure through dark dungeons and mythical lands. Level up and defeat the dragon!",
+    "size": 120.5,
+    "reviews": 8500,
+    "ratingAvg": 4.2,
+    "downloads": 250000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1000 },
+      { "name": "4 star", "count": 2500 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/jPpz0vHJ/4552400ef84d3d18426716a54a134b15.jpg",
+    "title": "FitTrack Pro",
+    "companyName": "HealthMetrics Inc.",
+    "id": 103,
+    "description": "Comprehensive fitness tracking that syncs with your wearables to monitor heart rate and calories.",
+    "size": 68.0,
+    "reviews": 3200,
+    "ratingAvg": 4.5,
+    "downloads": 100000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 350 },
+      { "name": "4 star", "count": 600 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/twxGBxJ0/unnamed.jpg",
+    "title": "ByteBank Mobile",
+    "companyName": "ByteBank Global",
+    "id": 104,
+    "description": "Secure mobile banking with instant transfers, bill pay, and real-time fraud monitoring.",
+    "size": 52.3,
+    "reviews": 15000,
+    "ratingAvg": 3.9,
+    "downloads": 1000000,
+    "ratings": [
+      { "name": "1 star", "count": 2000 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 2500 },
+      { "name": "4 star", "count": 4000 },
+      { "name": "5 star", "count": 5000 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/zVYb4qq9/unnamed-1.jpg",
+    "title": "ChatSphere",
+    "companyName": "Nexus Social",
+    "id": 105,
+    "description": "Encrypted messaging with high-quality video calls and collaborative group spaces.",
+    "size": 89.1,
+    "reviews": 45600,
+    "ratingAvg": 4.6,
+    "downloads": 5000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 30000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/snapedit.png",
+    "title": "SnapEdit AI",
+    "companyName": "CreativeTools",
+    "id": 106,
+    "description": "Enhance your photos with AI-powered filters, background removal, and professional retouching.",
+    "size": 115.0,
+    "reviews": 2100,
+    "ratingAvg": 4.7,
+    "downloads": 75000,
+    "ratings": [
+      { "name": "1 star", "count": 40 },
+      { "name": "2 star", "count": 60 },
+      { "name": "3 star", "count": 100 },
+      { "name": "4 star", "count": 400 },
+      { "name": "5 star", "count": 1500 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/mealmaster.png",
+    "title": "MealMaster Recipes",
+    "companyName": "TastyTech",
+    "id": 107,
+    "description": "Thousands of curated recipes for every diet, including keto, vegan, and gluten-free.",
+    "size": 34.7,
+    "reviews": 980,
+    "ratingAvg": 4.4,
+    "downloads": 30000,
+    "ratings": [
+      { "name": "1 star", "count": 20 },
+      { "name": "2 star", "count": 40 },
+      { "name": "3 star", "count": 120 },
+      { "name": "4 star", "count": 200 },
+      { "name": "5 star", "count": 600 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/skywatch.png",
+    "title": "SkyWatch Weather",
+    "companyName": "MeteorLogic",
+    "id": 108,
+    "description": "Hyper-local weather alerts and 10-day forecasts with precision Doppler radar mapping.",
+    "size": 22.1,
+    "reviews": 5600,
+    "ratingAvg": 4.1,
+    "downloads": 500000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 500 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 2500 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/codelearn.png",
+    "title": "CodeLearn: Python",
+    "companyName": "EduByte",
+    "id": 109,
+    "description": "Learn to code in Python with interactive lessons, quizzes, and real-time compilers.",
+    "size": 41.8,
+    "reviews": 12000,
+    "ratingAvg": 4.9,
+    "downloads": 150000,
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 50 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 1500 },
+      { "name": "5 star", "count": 10000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/travelbound.png",
+    "title": "TravelBound",
+    "companyName": "GlobeTrotter Apps",
+    "id": 110,
+    "description": "Book flights, hotels, and local experiences all in one place with exclusive rewards.",
+    "size": 76.4,
+    "reviews": 3400,
+    "ratingAvg": 3.7,
+    "downloads": 200000,
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/notewiz.png",
+    "title": "NoteWiz",
+    "companyName": "Focus Productivity",
+    "id": 111,
+    "description": "A minimalist note-taking app with markdown support and cross-device cloud syncing.",
+    "size": 18.9,
+    "reviews": 2300,
+    "ratingAvg": 4.3,
+    "downloads": 85000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 150 },
+      { "name": "3 star", "count": 300 },
+      { "name": "4 star", "count": 750 },
+      { "name": "5 star", "count": 1000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/soundwave.png",
+    "title": "SoundWave",
+    "companyName": "Sonic Stream",
+    "id": 112,
+    "description": "Stream millions of songs and podcasts in high-fidelity audio without interruptions.",
+    "size": 95.2,
+    "reviews": 67000,
+    "ratingAvg": 4.7,
+    "downloads": 10000000,
+    "ratings": [
+      { "name": "1 star", "count": 1500 },
+      { "name": "2 star", "count": 1000 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 10000 },
+      { "name": "5 star", "count": 50000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/taskmaster.png",
+    "title": "TaskMaster Pro",
+    "companyName": "Efficiency Hub",
+    "id": 113,
+    "description": "Collaborative project management for teams with Kanban boards and time tracking.",
+    "size": 58.6,
+    "reviews": 1100,
+    "ratingAvg": 4.0,
+    "downloads": 25000,
+    "ratings": [
+      { "name": "1 star", "count": 100 },
+      { "name": "2 star", "count": 100 },
+      { "name": "3 star", "count": 250 },
+      { "name": "4 star", "count": 350 },
+      { "name": "5 star", "count": 300 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/nightsky.png",
+    "title": "NightSky Explorer",
+    "companyName": "Cosmos Software",
+    "id": 114,
+    "description": "Point your phone at the sky to identify stars, planets, and constellations in AR.",
+    "size": 142.0,
+    "reviews": 4200,
+    "ratingAvg": 4.6,
+    "downloads": 120000,
+    "ratings": [
+      { "name": "1 star", "count": 120 },
+      { "name": "2 star", "count": 180 },
+      { "name": "3 star", "count": 400 },
+      { "name": "4 star", "count": 500 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/budgetbuddy.png",
+    "title": "BudgetBuddy",
+    "companyName": "PennyWise Tech",
+    "id": 115,
+    "description": "Take control of your finances with automated expense categorization and savings goals.",
+    "size": 30.2,
+    "reviews": 7800,
+    "ratingAvg": 4.4,
+    "downloads": 450000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 300 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+
+  
+  {
+    "image": "https://example.com/images/lingualift.png",
+    "title": "LinguaLift",
+    "companyName": "Polyglot Labs",
+    "id": 116,
+    "description": "Master a new language through immersive stories and AI-powered conversation practice.",
+    "size": 112.4,
+    "reviews": 18200,
+    "ratingAvg": 4.8,
+    "downloads": 1200000,
+    "ratings": [
+      { "name": "1 star", "count": 200 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 1100 },
+      { "name": "4 star", "count": 4500 },
+      { "name": "5 star", "count": 12000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/vividcut.png",
+    "title": "VividCut Video Editor",
+    "companyName": "MotionFrame",
+    "id": 117,
+    "description": "Pro-level video editing with multi-track timelines, chroma key, and cinematic transitions.",
+    "size": 245.8,
+    "reviews": 5400,
+    "ratingAvg": 4.5,
+    "downloads": 300000,
+    "ratings": [
+      { "name": "1 star", "count": 300 },
+      { "name": "2 star", "count": 250 },
+      { "name": "3 star", "count": 450 },
+      { "name": "4 star", "count": 1400 },
+      { "name": "5 star", "count": 3000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/dailydigest.png",
+    "title": "DailyDigest News",
+    "companyName": "Global Press",
+    "id": 118,
+    "description": "Stay informed with personalized news feeds and breaking alerts from verified sources.",
+    "size": 28.5,
+    "reviews": 9200,
+    "ratingAvg": 4.1,
+    "downloads": 850000,
+    "ratings": [
+      { "name": "1 star", "count": 800 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 2000 },
+      { "name": "5 star", "count": 4000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/habithero.png",
+    "title": "HabitHero",
+    "companyName": "SteadyFlow Apps",
+    "id": 119,
+    "description": "Build better routines and track your progress with streak challenges and reminder alerts.",
+    "size": 42.1,
+    "reviews": 3100,
+    "ratingAvg": 4.7,
+    "downloads": "1.5m",
+    "ratings": [
+      { "name": "1 star", "count": 50 },
+      { "name": "2 star", "count": 80 },
+      { "name": "3 star", "count": 270 },
+      { "name": "4 star", "count": 700 },
+      { "name": "5 star", "count": 2000 }
+    ]
+  },
+  {
+    "image": "https://example.com/images/tradetreasure.png",
+    "title": "TradeTreasure",
+    "companyName": "Bazaar Network",
+    "id": 120,
+    "description": "The community marketplace to buy and sell pre-loved items locally with secure payments.",
+    "size": 63.9,
+    "reviews": 24000,
+    "ratingAvg": 3.8,
+    "downloads": "20m",
+    "ratings": [
+      { "name": "1 star", "count": 4000 },
+      { "name": "2 star", "count": 3000 },
+      { "name": "3 star", "count": 4500 },
+      { "name": "4 star", "count": 5500 },
+      { "name": "5 star", "count": 7000 }
+    ]
+  }
+]

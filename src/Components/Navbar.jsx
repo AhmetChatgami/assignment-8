@@ -41,8 +41,8 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <img className="h-10" src={logo} alt="" />
-          <Link to="/" className="btn btn-ghost text-xl">HERO.IO</Link>
+
+          <Link to="/" className="text-xl font-bold flex items-center"> <img className="h-10" src={logo} alt="" />HERO.IO</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
