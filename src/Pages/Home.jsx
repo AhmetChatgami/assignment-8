@@ -5,6 +5,7 @@ import useApps from "../Hooks/useApps";
 import googlePlay from "../assets/d8f_GooglePlay_mediumklein.jpg";
 import appStore from "../assets/App_Store_(iOS).svg.png";
 import banner from "../assets/hero.png";
+import Skeleton from "./Skeleton";
 const Home = () => {
   // const appsData = useLoaderData();
   const { appsData, loading, error } = useApps();
@@ -84,12 +85,18 @@ const Home = () => {
       {/* Featured Apps */}
       <div>
         <h2 className="text-3xl font-semibold text-center">Trending Apps</h2>
-        <p className="text-center my">Explore All Trending Apps on the Market developed by us.</p>
-        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-8">
-          {featuredApps.map((app) => (
-            <AppsCard key={app.id} app={app}></AppsCard>
-          ))}
-        </div>
+        <p className="text-center my">
+          Explore All Trending Apps on the Market developed by us.
+        </p>
+        {loading? <Skeleton/>: <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-8">
+          {loading ? (
+            <Skeleton />
+          ) : (
+            featuredApps.map((app) => (
+              <AppsCard key={app.id} app={app}></AppsCard>
+            ))
+          )}
+        </div>}
 
         <div className="flex justify-center">
           <Link to="/apps">

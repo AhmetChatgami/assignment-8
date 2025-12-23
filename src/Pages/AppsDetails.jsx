@@ -112,7 +112,7 @@ const AppsDetails = () => {
           </div>
 
           <div className="card-actions justify mt-4">
-            <Link to='/installation'              onClick={handleInstall}
+            <Link to='/installation'  onClick={handleInstall}
               className="btn bg-[#00D390] text-white"
             >
               Install Now ({size} MB)
