@@ -112,12 +112,11 @@ const AppsDetails = () => {
           </div>
 
           <div className="card-actions justify mt-4">
-            <button
-              onClick={handleInstall}
+            <Link to='/installation'              onClick={handleInstall}
               className="btn bg-[#00D390] text-white"
             >
               Install Now ({size} MB)
-            </button>
+            </Link>
           </div>
         </div>
       </div>
@@ -188,9 +187,9 @@ const AppsDetails = () => {
         <p className="text-gray-500">{description}</p>
       </div>{" "}
       <br />
-      <Link to="/installation">
+      {/* <Link to="/installation">
         <button className="btn btn-primary">Go to Installation</button>
-      </Link>
+      </Link> */}
     </div>
   );
 };

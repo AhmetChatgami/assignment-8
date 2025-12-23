@@ -6,6 +6,8 @@ import Installation from "../Pages/Installation";
 import MainLayout from "../Layouts/MainLayout";
 import ErroPage from "../Pages/ErroPage";
 import AppsDetails from "../Pages/AppsDetails";
+import NotFound from "../Pages/notFound";
+;
 
 const router = createBrowserRouter([
   {
@@ -23,6 +25,7 @@ const router = createBrowserRouter([
         path: "/apps",
         element: <Apps />,
         loader: () => fetch("./appsData.json"),
+        errorElement: <NotFound></NotFound>
       },
 
       {

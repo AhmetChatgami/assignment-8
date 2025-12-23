@@ -20,7 +20,7 @@ import { Link } from "react-router";
 //     ]
 //   }
 const AppsCard = ({ app }) => {
-  console.log(app);
+ 
   const { image, title, size, ratingAvg } = app;
   return (
     <Link to={`/app/${app.id}`}>

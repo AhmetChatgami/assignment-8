@@ -2,14 +2,38 @@ import React, { useState } from "react";
 import useApps from "../Hooks/useApps";
 import AppsCard from "./AppsCard";
 import { Link } from "react-router";
+import NotFound from "./notFound";
+import appError from "../assets/App-Error.png";
 
 const Apps = () => {
   const { appsData } = useApps();
   const [search, setSearch] = useState("");
 
-  const term= search.trim().toLowerCase();
-  const searchedApps = term? appsData.filter(app=> app.title.toLowerCase().includes(term)) : appsData;
-  console.log(searchedApps);
+  const term = search.trim().toLowerCase();
+  const searchedApps = term
+    ? appsData.filter((app) => app.title.toLowerCase().includes(term))
+    : appsData;
+  if (!searchedApps.length)
+    return (
+      <section className="mx-auto">
+        <img className="h-80 mx-auto my-10" src={appError} alt="" />
+        <p className="text-center text-4xl font-semibold">
+          OPPS!! APP NOT FOUND
+        </p>
+        <p className="text-center text-gray-500">
+          The App you are requesting is not found on our system. please try
+          another apps
+        </p>
+        <p className="text-center">
+
+        <Link to="/">
+          <button className="btn text-white mt-8 my-6 hover:bg-purple-800 bg-[#632EE3]">
+            Go Back!
+          </button>
+        </Link>
+        </p>
+      </section>
+    );
   return (
     <div>
       <div className="py-8">

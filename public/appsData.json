@@ -179,24 +179,7 @@
       { "name": "5 star", "count": 800 }
     ]
   },
-  {
-    "image": "https://i.ibb.co.com/m5t3TpV0/74d699cd0b048bed71ae21eaf082327c.jpg",
-    "title": "AroundWorld",
-    "companyName": "GlobeTrotter Apps",
-    "id": 110,
-    "description": "Book flights, hotels, and local experiences all in one place with exclusive rewards. Our intelligent travel assistant helps you build custom itineraries based on your interests and budget. Enjoy 24/7 customer support and access to 'mobile-only' deals that save you up to 40% on luxury accommodations. The app features an integrated currency converter and offline maps for over 5,000 cities worldwide. Store all your boarding passes and hotel confirmations in one digital wallet that works without an internet connection. Read verified reviews and see authentic traveler photos before you make a booking for your next big adventure. Our 'Price Drop' alerts notify you instantly when your saved flight routes become cheaper, ensuring you get the best deal. Join our loyalty program to earn points on every booking that can be redeemed for free stays and flight upgrades. Connect with local guides through our marketplace to experience hidden gems that are off the beaten path. With our travel insurance integration, you can protect your trip against cancellations and medical emergencies in just two taps.",
-    "size": 76.4,
-    "reviews": "3.4k",
-    "ratingAvg": 3.7,
-    "downloads": "200k",
-    "ratings": [
-      { "name": "1 star", "count": 500 },
-      { "name": "2 star", "count": 400 },
-      { "name": "3 star", "count": 700 },
-      { "name": "4 star", "count": 1000 },
-      { "name": "5 star", "count": 800 }
-    ]
-  },
+ 
   {
     "image": "https://i.ibb.co.com/dwsVCQCf/4431b1c070a32eefa9daa6e65f8226cb.jpg",
     "title": "NoteWiz",
