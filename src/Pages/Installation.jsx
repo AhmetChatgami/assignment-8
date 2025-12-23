@@ -9,6 +9,16 @@ const Installation = () => {
     if (savedList) setInstalledApps(savedList);
   }, []);
 
+  const sortedApps = (() => {
+    if (sortApp === "size") {
+      return [...installedApps].sort((a, b) => a.size - b.size);
+    } else if (sortApp === "ratings") {
+      return [...installedApps].sort((a, b) => b.ratingAvg - a.ratingAvg);
+    } else {
+      return installedApps;
+    }
+  })();
+
   return (
     <div>
       <h1 className="text-4xl font-bold py-4 text-center">
@@ -37,7 +47,7 @@ const Installation = () => {
       </div>
 
       <div className="space-y-4">
-        {installedApps.map((a) => (
+        {sortedApps.map((a) => (
           <div className="card card-side bg-base-100 shadow-sm">
             <figure>
               <img
@@ -49,6 +59,8 @@ const Installation = () => {
             <div className="card-body">
               <h2 className="card-title">{a.title}</h2>
               <p>{a.companyName}</p>
+              <p>{a.size} MB</p>
+              <p>{a.ratingAvg} Ratings</p>
               <div className="card-actions justify-end">
                 <button className="btn btn-primary">Uninstall</button>
               </div>
