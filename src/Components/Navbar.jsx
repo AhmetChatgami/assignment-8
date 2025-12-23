@@ -42,9 +42,9 @@ const Navbar = () => {
             </ul>
           </div>
 
-          <Link to="/" className="text-xl font-bold flex items-center">
+          <Link to="/" className="text-xl hover:text-purple-700 font-bold flex items-center gap-2">
             {" "}
-            <img className="h-10" src={logo} alt="" />
+            <img className="h-10 ml-4" src={logo} alt="" />
             HERO.IO
           </Link>
         </div>
@@ -61,16 +61,16 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="navbar-end">
+        <div className="navbar-end ">
           {/* <a className="btn">Contribute</a> */}
           <Link
             to="https://github.com/AhmetChatgami"
             target="_blank"
-            className="flex justify-center mt-4 mb-2 btn bg-[#632EE3] hover:bg-purple-800 text-white"
+            className="flex justify-center mt-4 mb-2 btn bg-radial-[at_25%_25%] from-[#632EE3] to-[#9F62F2] text-white"
           >
             {" "}
             <img className="h-6" src={gitHub} alt="" />
-            <p>Contribute</p>
+            <p className="">Contribute</p>
           </Link>
         </div>
       </div>
