@@ -52,6 +52,10 @@ const AppsDetails = () => {
           </button>
         </div>
       </div>
+        <Link to="/installation">
+          <button className="btn btn-primary">Go to Installation</button>
+        </Link>
+
     </div>
   );
 };

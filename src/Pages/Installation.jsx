@@ -19,6 +19,28 @@ const Installation = () => {
     }
   })();
 
+  // const handleInstall = () => {
+  //     const existingList = JSON.parse(localStorage.getItem("installedApp"));
+  //     let updatedList = [];
+  //     if (existingList) {
+  //       const isDuplicate = existingList.some((a) => a.id === appDetails.id);
+  //       if (isDuplicate) return alert("App is proceed to install.");
+
+  //       updatedList = [...existingList, appDetails];
+  //     } else {
+  //       updatedList.push(appDetails);
+  //     }
+  //     localStorage.setItem("installedApp", JSON.stringify(updatedList));
+  //   };
+
+  const handleRemove = (id) => {
+    const existingList = JSON.parse(localStorage.getItem("installedApp"));
+    let updatedList = existingList.filter((a) => a.id !== id);
+
+    setInstalledApps((prev) => prev.filter((a) => a.id !== id));
+    localStorage.setItem("installedApp", JSON.stringify(updatedList));
+  };
+
   return (
     <div>
       <h1 className="text-4xl font-bold py-4 text-center">
@@ -62,12 +84,20 @@ const Installation = () => {
               <p>{a.size} MB</p>
               <p>{a.ratingAvg} Ratings</p>
               <div className="card-actions justify-end">
-                <button className="btn btn-primary">Uninstall</button>
+                <button
+                  className="btn btn-primary"
+                  onClick={() => handleRemove(a.id)}
+                >
+                  Uninstall
+                </button>
               </div>
             </div>
           </div>
         ))}
       </div>
+      <Link to="/apps">
+        <button className="btn btn-primary">Back to Apps</button>
+      </Link>
     </div>
   );
 };
