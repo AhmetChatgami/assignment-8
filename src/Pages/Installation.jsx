@@ -3,6 +3,7 @@ import { Link } from "react-router";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
+  const [sortApp, setSortApp] = useState("none");
   useEffect(() => {
     const savedList = JSON.parse(localStorage.getItem("installedApp"));
     if (savedList) setInstalledApps(savedList);
@@ -14,19 +15,33 @@ const Installation = () => {
         Your Installed Apps
       </h1>
 
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between space-y-4 mb-6">
         <p>{installedApps.length} Apps Found</p>
 
-        <button className="btn text-white  mt-8 my-6 hover:bg-purple-800 bg-[#632EE3]">
+        <label className="form-control max-w-xs">
+          <select
+            className="select select-bordered"
+            name="sort"
+            id="sort"
+            value={sortApp}
+            onChange={(e) => setSortApp(e.target.value)}
+          >
+            <option value="none">Sort By</option>
+            <option value="size">Sort By Size</option>
+            <option value="ratings">Sort By Ratings</option>
+          </select>
+        </label>
+        {/* <button className="btn text-white  mt-8 my-6 hover:bg-purple-800 bg-[#632EE3]">
           Sort Apps
-        </button>
+        </button> */}
       </div>
 
       <div className="space-y-4">
         {installedApps.map((a) => (
           <div className="card card-side bg-base-100 shadow-sm">
             <figure>
-              <img className="w-25 h-20 object-cover"
+              <img
+                className="w-25 h-20 object-cover"
                 src={a.image}
                 alt={a.title}
               />
