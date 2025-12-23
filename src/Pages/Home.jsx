@@ -2,9 +2,9 @@ import React from "react";
 import { Link, useLoaderData } from "react-router";
 import AppsCard from "./AppsCard";
 import useApps from "../Hooks/useApps";
-import googlePlay from "../assets/d8f_GooglePlay_mediumklein.jpg"
-import appStore from "../assets/App_Store_(iOS).svg.png"
-import banner from "../assets/hero.png"
+import googlePlay from "../assets/d8f_GooglePlay_mediumklein.jpg";
+import appStore from "../assets/App_Store_(iOS).svg.png";
+import banner from "../assets/hero.png";
 const Home = () => {
   // const appsData = useLoaderData();
   const { appsData, loading, error } = useApps();
@@ -29,42 +29,75 @@ const Home = () => {
           Our goal is to turn your ideas into digital experiences that truly
           make an impact.
         </p>
-        
       </div>
-       <div className="flex justify-center gap-4">
-          <Link
-            to="https://play.google.com/store/apps/"
-            target="_blank"
-            className="flex justify-center mt-4 mb-2 btn"
-          > <img className="h-6" src={googlePlay} alt="" />
-            <p>Google Play</p>
-          </Link>
-          <Link
-            to="https://www.apple.com/app-store/"
-            target="_blank"
-            className="flex justify-center mt-4 mb-2 btn"
-          > <img className="h-6" src={appStore} alt="" />
-            <p>Apps Store</p>
-          </Link>
-        
-        </div>
+      <div className="flex justify-center gap-4">
+        <Link
+          to="https://play.google.com/store/search?q=programming+hero&c=apps"
+          target="_blank"
+          className="flex justify-center mt-4 mb-2 btn"
+        >
+          {" "}
+          <img className="h-6" src={googlePlay} alt="" />
+          <p>Google Play</p>
+        </Link>
+        <Link
+          to="https://apps.apple.com/us/app/neptune-by-programming-hero/id1639834172"
+          target="_blank"
+          className="flex justify-center mt-4 mb-2 btn"
+        >
+          {" "}
+          <img className="h-6" src={appStore} alt="" />
+          <p>Apps Store</p>
+        </Link>
+      </div>
 
-        <div className="my-8 justify-center flex">
+      <div className="my-8">
+        <div className="justify-center flex">
           <img src={banner} alt="" />
         </div>
-      <h2 className="text-2xl font-semibold mb-4">Featured Apps</h2>
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
-        {featuredApps.map((app) => (
-          <AppsCard key={app.id} app={app}></AppsCard>
-        ))}
+
+        <div className="bg-radial-[at_35%_25%] from-[#632EE3] to-[#9F62F2] w-full py-8 px-4 text-center text-white">
+          <h2 className="text-3xl font-bold">
+            Trusted By Millions, Built For You
+          </h2>
+
+          <section className="flex-1 lg:flex min-w-full justify-center items-center space-x-8 mt-4">
+            <div>
+              <h2 className="text-sm">Total Downloads</h2>
+              <p className="text-5xl font-bold py-2">29.6M</p>
+              <p className="text-sm">21% More Than Last Month</p>
+            </div>
+            <div>
+              <h2 className="text-sm">Total Reviews</h2>
+              <p className="text-5xl font-bold py-2">906K</p>
+              <p className="text-sm">46% More Than Last Month</p>
+            </div>
+            <div>
+              <h2 className="text-sm">Active Apps</h2>
+              <p className="text-5xl font-bold py-2">132+</p>
+              <p className="text-sm">31More Will Launch</p>
+            </div>
+          </section>
+        </div>
       </div>
 
-      <div className="flex justify-center">
-        <Link to="/apps">
-          <button className="btn text-white  mt-8 my-6 hover:bg-purple-800 bg-[#632EE3]">
-            See All Apps
-          </button>
-        </Link>
+      {/* Featured Apps */}
+      <div>
+        <h2 className="text-3xl font-semibold text-center">Trending Apps</h2>
+        <p className="text-center my">Explore All Trending Apps on the Market developed by us.</p>
+        <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-8">
+          {featuredApps.map((app) => (
+            <AppsCard key={app.id} app={app}></AppsCard>
+          ))}
+        </div>
+
+        <div className="flex justify-center">
+          <Link to="/apps">
+            <button className="btn text-white  mt-8 my-6 hover:bg-purple-800 bg-[#632EE3]">
+              See All Apps
+            </button>
+          </Link>
+        </div>
       </div>
     </div>
   );

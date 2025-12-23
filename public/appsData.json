@@ -4,11 +4,11 @@
     "title": "ZenFlow: Daily Meditation",
     "companyName": "Serenity Labs",
     "id": 101,
-    "description": "Find your inner peace with guided meditations and breathing exercises designed for stress relief.",
+    "description": "Find your inner peace with guided meditations and breathing exercises designed for stress relief. Our library includes hundreds of sessions ranging from 5 to 60 minutes, catering to both beginners and advanced practitioners. Experience better sleep with our curated ambient soundscapes and bedtime stories designed to calm the mind. Beyond meditation, the app offers daily mood check-ins and progress charts to visualize your mental health journey over weeks and months. Sync with your favorite wearable devices to track your heart rate variability during sessions. Join our global community challenges to stay consistent with your practice alongside millions of others. Every week, we host live masterclasses with world-renowned mindfulness experts and yoga instructors. You can also download your favorite sessions for offline use during travel or digital detoxes. Finally, customize your experience with personalized reminders and gentle haptic feedback for breathing cycles.",
     "size": 45.2,
-    "reviews": 1240,
+    "reviews": "12.4k",
     "ratingAvg": 4.8,
-    "downloads": 50000,
+    "downloads": "50k",
     "ratings": [
       { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 30 },
@@ -22,11 +22,11 @@
     "title": "PixelQuest RPG",
     "companyName": "RetroBit Games",
     "id": 102,
-    "description": "An 8-bit adventure through dark dungeons and mythical lands. Level up and defeat the dragon!",
+    "description": "An 8-bit adventure through dark dungeons and mythical lands. Level up and defeat the dragon! Master a deep combat system with over 50 unique spells and abilities to discover throughout your journey. Join thousands of players in online raids, or explore the vast open world at your own pace to find hidden treasures and rare gear. The game features a complex crafting system where you can forge legendary weapons from materials found in the deepest caves. Engage in seasonal events that introduce new storylines, limited-time bosses, and exclusive cosmetic rewards. Form a guild with your friends to compete in weekly leaderboards and conquer regional territories. The dynamic day-night cycle affects monster spawns and opens up unique quest lines only available under the moonlight. With cross-play enabled, you can switch seamlessly between your phone and tablet without losing progress. Experience a nostalgic soundtrack composed by retro-gaming legends that adapts to your current environment.",
     "size": 120.5,
-    "reviews": 8500,
+    "reviews": "85k",
     "ratingAvg": 4.2,
-    "downloads": 250000,
+    "downloads": "250k",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -40,11 +40,11 @@
     "title": "FitTrack Pro",
     "companyName": "HealthMetrics Inc.",
     "id": 103,
-    "description": "Comprehensive fitness tracking that syncs with your wearables to monitor heart rate and calories.",
+    "description": "Comprehensive fitness tracking that syncs with your wearables to monitor heart rate and calories. Access personalized workout plans created by professional trainers to help you reach your specific weight loss or muscle gain goals. Use our built-in GPS to map your running routes and analyze your performance with detailed weekly progress reports. The app features a vast library of high-intensity interval training (HIIT) videos and low-impact yoga flows for all levels. Track your macronutrients and hydration levels with our integrated food diary and barcode scanner. Participate in community challenges to win virtual trophies and stay motivated by competing with friends. Our smart coaching AI provides real-time feedback on your form and suggests intensity adjustments based on your fatigue levels. Connect with a live nutritionist for monthly consultations to optimize your performance and recovery. Set custom goals for steps, active minutes, and sleep quality to maintain a holistic view of your health. Your data is always encrypted and private, ensuring your medical information stays secure.",
     "size": 68.0,
-    "reviews": 3200,
+    "reviews": "3.2k",
     "ratingAvg": 4.5,
-    "downloads": 100000,
+    "downloads": "100k",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 150 },
@@ -58,11 +58,11 @@
     "title": "ByteBank Mobile",
     "companyName": "ByteBank Global",
     "id": 104,
-    "description": "Secure mobile banking with instant transfers, bill pay, and real-time fraud monitoring.",
+    "description": "Secure mobile banking with instant transfers, bill pay, and real-time fraud monitoring. Manage your savings, checking, and investment accounts from a single, intuitive dashboard. Set up automatic savings goals and receive smart alerts when you approach your monthly budget limits. The app also includes a sophisticated stock and cryptocurrency trading platform for advanced users. Generate virtual cards for one-time online purchases to keep your main account details hidden from merchants. Use our AI-powered expense analyzer to see exactly where your money goes with beautiful, easy-to-read charts. Reach out to our 24/7 human support team via encrypted chat for any banking inquiries or urgent assistance. Enjoy exclusive cashback rewards and discounts at thousands of partner retailers when you use your ByteBank card. Our biometric login features ensure that only you can access your funds, even if your device is lost. Join over 10 million users who trust us to power their daily financial transactions and long-term wealth building.",
     "size": 52.3,
-    "reviews": 15000,
+    "reviews": "15k",
     "ratingAvg": 3.9,
-    "downloads": 1000000,
+    "downloads": "10M",
     "ratings": [
       { "name": "1 star", "count": 2000 },
       { "name": "2 star", "count": 1500 },
@@ -72,15 +72,15 @@
     ]
   },
   {
-    "image": "https://i.ibb.co.com/zVYb4qq9/unnamed-1.jpg",
+    "image": "https://i.ibb.co.com/3mZwz2kB/292f39bd36cd0e728ecb432a853126e2.jpg",
     "title": "ChatSphere",
     "companyName": "Nexus Social",
     "id": 105,
-    "description": "Encrypted messaging with high-quality video calls and collaborative group spaces.",
+    "description": "Encrypted messaging with high-quality video calls and collaborative group spaces. Stay connected with friends and family using end-to-end encryption for total privacy in every conversation. Share large files up to 2GB, create custom stickers, and organize professional team channels. The app supports disappearing messages that vanish after a set time for extra security. Create polls in group chats to quickly gather opinions and make decisions with your friends or colleagues. Our low-data mode ensures you can stay connected even on weak cellular networks without sacrificing voice quality. Use the built-in translation tool to communicate with people in over 100 different languages in real-time. Personalize your chat interface with hundreds of custom themes, fonts, and notification sounds. Our desktop client syncs perfectly with your mobile device, allowing you to pick up conversations right where you left off. Broadcast channels allow you to follow your favorite creators and get the latest updates directly in your inbox.",
     "size": 89.1,
-    "reviews": 45600,
+    "reviews": "45.6k",
     "ratingAvg": 4.6,
-    "downloads": 5000000,
+    "downloads": "5M",
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 800 },
@@ -90,15 +90,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/snapedit.png",
+    "image": "https://i.ibb.co.com/sJdmpy7x/735479fe32998255fbbdbfc7d8a62186.jpg",
     "title": "SnapEdit AI",
     "companyName": "CreativeTools",
     "id": 106,
-    "description": "Enhance your photos with AI-powered filters, background removal, and professional retouching.",
+    "description": "Enhance your photos with AI-powered filters, background removal, and professional retouching. Our advanced neural networks allow you to turn simple snapshots into gallery-worthy masterpieces with just one tap. Fine-tune your lighting, contrast, and saturation using precise manual controls. The 'Magic Erase' feature lets you remove unwanted objects or photobombers from your pictures effortlessly. Use our portrait mode to add realistic bokeh effects and adjust skin tones for the perfect selfie. Create stunning double-exposure images and artistic collages with our easy-to-use templates. The app also supports RAW file editing for professional photographers who need maximum control over their data. Batch process hundreds of photos at once to save time on large projects or event photography. Share your creations directly to social platforms with presets tailored for optimal resolution. Our cloud storage option ensures your high-res edits are backed up and accessible from any device at any time.",
     "size": 115.0,
-    "reviews": 2100,
+    "reviews": "2.1k",
     "ratingAvg": 4.7,
-    "downloads": 75000,
+    "downloads": "75k",
     "ratings": [
       { "name": "1 star", "count": 40 },
       { "name": "2 star", "count": 60 },
@@ -108,15 +108,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/mealmaster.png",
+    "image": "https://i.ibb.co.com/whvp3FR3/c45f7a58429d299d540164208dd0547f.jpg",
     "title": "MealMaster Recipes",
     "companyName": "TastyTech",
     "id": 107,
-    "description": "Thousands of curated recipes for every diet, including keto, vegan, and gluten-free.",
+    "description": "Thousands of curated recipes for every diet, including keto, vegan, and gluten-free. Plan your entire week of meals in minutes and automatically generate a smart grocery list. Watch high-definition video tutorials for complex techniques and save your favorite dishes to a personalized digital cookbook. The 'Pantry Search' feature allows you to find recipes based on the ingredients you already have at home. Get nutritional breakdowns for every meal, including calorie counts and macro ratios for those tracking their intake. Follow your favorite world-class chefs and get notified whenever they post a new seasonal creation. Our cooking timer and step-by-step voice guidance allow for hands-free operation in the kitchen. Share your own recipe variations and photos with our vibrant community of home cooks to earn 'Top Chef' badges. Scale recipe portions automatically based on the number of guests you are serving for your next dinner party. Subscribe to premium meal plans designed by registered dietitians for specific health goals like heart health or inflammation reduction.",
     "size": 34.7,
-    "reviews": 980,
+    "reviews": "980",
     "ratingAvg": 4.4,
-    "downloads": 30000,
+    "downloads": "30k",
     "ratings": [
       { "name": "1 star", "count": 20 },
       { "name": "2 star", "count": 40 },
@@ -126,15 +126,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/skywatch.png",
+    "image": "https://i.ibb.co.com/vxG3f3nh/7aa7b8d8c3a6acaf64e88073c3813701.jpg",
     "title": "SkyWatch Weather",
     "companyName": "MeteorLogic",
     "id": 108,
-    "description": "Hyper-local weather alerts and 10-day forecasts with precision Doppler radar mapping.",
+    "description": "Hyper-local weather alerts and 10-day forecasts with precision Doppler radar mapping. Stay ahead of the storm with real-time lightning tracking and severe weather notifications. Our proprietary algorithms analyze data from thousands of local stations to provide the most accurate humidity and wind readings. Get specialized forecasts for outdoor activities like hiking, sailing, or golfing based on current atmospheric conditions. The app includes detailed air quality indices and pollen counts to help allergy sufferers plan their day safely. Explore interactive 3D globe views to see global weather patterns and jet stream movements in real-time. Set up custom alerts for specific thresholds, like when the temperature drops below freezing or wind speeds exceed 30mph. Our 'Rain Start' notification tells you exactly when precipitation will hit your specific street address within a 1-minute window. View historical weather data for any location on Earth to plan your future travel or outdoor events. The beautiful widget system provides at-a-glance information directly on your home screen with animated weather backgrounds.",
     "size": 22.1,
-    "reviews": 5600,
+    "reviews": "5.6k",
     "ratingAvg": 4.1,
-    "downloads": 500000,
+    "downloads": "500k",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 500 },
@@ -144,15 +144,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/codelearn.png",
+    "image": "https://i.ibb.co.com/wFsX3zC4/173ee0eb290de65a6797e654d3040586.jpg",
     "title": "CodeLearn: Python",
     "companyName": "EduByte",
     "id": 109,
-    "description": "Learn to code in Python with interactive lessons, quizzes, and real-time compilers.",
+    "description": "Learn to code in Python with interactive lessons, quizzes, and real-time compilers. Start from the very basics of syntax and progress to advanced topics like machine learning and data science. Build real-world projects in our integrated mobile sandbox and earn industry-recognized certificates. Our AI-tutor is available 24/7 to help you debug your code and explain complex programming concepts. Join our coding forums to collaborate on open-source projects with other students from around the world. The curriculum is updated weekly to include the latest Python libraries and best practices in software development. Track your daily learning streak and compete on global leaderboards to stay motivated throughout your journey. Access bite-sized video lectures from senior engineers at top tech companies like Google and Meta. Our 'Offline Mode' allows you to download entire modules so you can study coding even without an internet connection. Once you finish the core tracks, use our career center to find internship opportunities and job placement assistance.",
     "size": 41.8,
-    "reviews": 12000,
+    "reviews": "12k",
     "ratingAvg": 4.9,
-    "downloads": 150000,
+    "downloads": "150k",
     "ratings": [
       { "name": "1 star", "count": 50 },
       { "name": "2 star", "count": 50 },
@@ -162,15 +162,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/travelbound.png",
+    "image": "https://i.ibb.co.com/6cSrHvRw/be67a9d779bac3664e6839fc075dc3eb.jpg",
     "title": "TravelBound",
     "companyName": "GlobeTrotter Apps",
     "id": 110,
-    "description": "Book flights, hotels, and local experiences all in one place with exclusive rewards.",
+    "description": "Book flights, hotels, and local experiences all in one place with exclusive rewards. Our intelligent travel assistant helps you build custom itineraries based on your interests and budget. Enjoy 24/7 customer support and access to 'mobile-only' deals that save you up to 40% on luxury accommodations. The app features an integrated currency converter and offline maps for over 5,000 cities worldwide. Store all your boarding passes and hotel confirmations in one digital wallet that works without an internet connection. Read verified reviews and see authentic traveler photos before you make a booking for your next big adventure. Our 'Price Drop' alerts notify you instantly when your saved flight routes become cheaper, ensuring you get the best deal. Join our loyalty program to earn points on every booking that can be redeemed for free stays and flight upgrades. Connect with local guides through our marketplace to experience hidden gems that are off the beaten path. With our travel insurance integration, you can protect your trip against cancellations and medical emergencies in just two taps.",
     "size": 76.4,
-    "reviews": 3400,
+    "reviews": "3.4k",
     "ratingAvg": 3.7,
-    "downloads": 200000,
+    "downloads": "200k",
     "ratings": [
       { "name": "1 star", "count": 500 },
       { "name": "2 star", "count": 400 },
@@ -180,15 +180,33 @@
     ]
   },
   {
-    "image": "https://example.com/images/notewiz.png",
+    "image": "https://i.ibb.co.com/m5t3TpV0/74d699cd0b048bed71ae21eaf082327c.jpg",
+    "title": "AroundWorld",
+    "companyName": "GlobeTrotter Apps",
+    "id": 110,
+    "description": "Book flights, hotels, and local experiences all in one place with exclusive rewards. Our intelligent travel assistant helps you build custom itineraries based on your interests and budget. Enjoy 24/7 customer support and access to 'mobile-only' deals that save you up to 40% on luxury accommodations. The app features an integrated currency converter and offline maps for over 5,000 cities worldwide. Store all your boarding passes and hotel confirmations in one digital wallet that works without an internet connection. Read verified reviews and see authentic traveler photos before you make a booking for your next big adventure. Our 'Price Drop' alerts notify you instantly when your saved flight routes become cheaper, ensuring you get the best deal. Join our loyalty program to earn points on every booking that can be redeemed for free stays and flight upgrades. Connect with local guides through our marketplace to experience hidden gems that are off the beaten path. With our travel insurance integration, you can protect your trip against cancellations and medical emergencies in just two taps.",
+    "size": 76.4,
+    "reviews": "3.4k",
+    "ratingAvg": 3.7,
+    "downloads": "200k",
+    "ratings": [
+      { "name": "1 star", "count": 500 },
+      { "name": "2 star", "count": 400 },
+      { "name": "3 star", "count": 700 },
+      { "name": "4 star", "count": 1000 },
+      { "name": "5 star", "count": 800 }
+    ]
+  },
+  {
+    "image": "https://i.ibb.co.com/dwsVCQCf/4431b1c070a32eefa9daa6e65f8226cb.jpg",
     "title": "NoteWiz",
     "companyName": "Focus Productivity",
     "id": 111,
-    "description": "A minimalist note-taking app with markdown support and cross-device cloud syncing.",
+    "description": "A minimalist note-taking app with markdown support and cross-device cloud syncing. Organize your thoughts using a powerful tagging system and nested folders for maximum clarity. Collaborate with teammates in real-time on shared documents and use our advanced search feature. The app includes an OCR engine that can scan and digitize text from your physical documents or whiteboard photos. Protect sensitive information with password-protected notes and biometric encryption for individual folders. Record audio notes that automatically sync with your typed text, making it perfect for lectures and business meetings. Use the 'Web Clipper' browser extension to save articles and inspiration directly into your research library. Export your notes into various formats like PDF, Word, or HTML for professional presentation and easy sharing. Our built-in 'Focus Mode' removes all UI distractions, allowing you to immerse yourself in deep writing sessions. Customize your workspace with different themes, including a dark mode that reduces eye strain during late-night work.",
     "size": 18.9,
-    "reviews": 2300,
+    "reviews": "2.3k",
     "ratingAvg": 4.3,
-    "downloads": 85000,
+    "downloads": "85k",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 150 },
@@ -198,15 +216,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/soundwave.png",
+    "image": "https://i.ibb.co.com/9kdpgszD/87bce3e7eed6102be286dfa2b326dcf4.jpg",
     "title": "SoundWave",
     "companyName": "Sonic Stream",
     "id": 112,
-    "description": "Stream millions of songs and podcasts in high-fidelity audio without interruptions.",
+    "description": "Stream millions of songs and podcasts in high-fidelity audio without interruptions. Discover new artists through personalized daily mixes and explore global charts curated by music experts. Create and share playlists with friends and download tracks for offline listening. The app features a powerful equalizer with presets for every genre, from bass-heavy EDM to crisp classical music. Tune into live radio stations from across the world and listen to exclusive artist interviews and live sessions. Our 'Sleep Timer' allows you to drift off to your favorite music while the app automatically shuts down to save battery. Connect your account to smart speakers, car systems, and game consoles for a truly integrated audio experience. Follow your favorite podcasters and get notified of new episodes, complete with speed control and skip-silence features. Share your 'Year in Music' statistics on social media to showcase your unique taste to your followers. High-resolution FLAC streaming is available for audiophiles who demand the highest possible sound quality.",
     "size": 95.2,
-    "reviews": 67000,
+    "reviews": "67k",
     "ratingAvg": 4.7,
-    "downloads": 10000000,
+    "downloads": "10M",
     "ratings": [
       { "name": "1 star", "count": 1500 },
       { "name": "2 star", "count": 1000 },
@@ -216,15 +234,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/taskmaster.png",
+    "image": "https://i.ibb.co.com/Myg79MBy/21f1bd3890fd70a5c0f12427a9714b37.jpg",
     "title": "TaskMaster Pro",
     "companyName": "Efficiency Hub",
     "id": 113,
-    "description": "Collaborative project management for teams with Kanban boards and time tracking.",
+    "description": "Collaborative project management for teams with Kanban boards and time tracking. Assign tasks, set deadlines, and monitor project milestones with visual Gantt charts. Integrate with your favorite third-party calendar and communication tools like Slack and Google Calendar. The app includes detailed productivity reports that help you identify bottlenecks in your team's workflow. Set up recurring tasks for daily or weekly duties to ensure nothing ever falls through the cracks. Attach files, leave comments, and mention team members to keep all project-related communication in one place. Our 'Focus Timer' uses the Pomodoro technique to help individual contributors maintain peak concentration during work hours. Manage multiple projects simultaneously with a unified dashboard that highlights your most urgent priorities. Use our API to build custom integrations and automate your repetitive business processes with ease. The app scales from solo freelancers to large enterprise teams with specialized permissions and security controls.",
     "size": 58.6,
-    "reviews": 1100,
+    "reviews": "1.1k",
     "ratingAvg": 4.0,
-    "downloads": 25000,
+    "downloads": "25k",
     "ratings": [
       { "name": "1 star", "count": 100 },
       { "name": "2 star", "count": 100 },
@@ -234,15 +252,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/nightsky.png",
+    "image": "https://i.ibb.co.com/QFHDTmBF/9eb1757bc3142ce1819939123a332b49.jpg",
     "title": "NightSky Explorer",
     "companyName": "Cosmos Software",
     "id": 114,
-    "description": "Point your phone at the sky to identify stars, planets, and constellations in AR.",
+    "description": "Point your phone at the sky to identify stars, planets, and constellations in AR. Our advanced sky-tracking technology works even without a data connection. Receive notifications about upcoming astronomical events like meteor showers and lunar eclipses. The app features a 'Time Travel' function that lets you see the sky as it appeared thousands of years ago or will look in the future. Zoom in on distant galaxies and nebulae with high-resolution imagery from the world's most powerful telescopes. Listen to narrated mythology stories about the constellations to learn the history behind the stars. Use the 'Light Pollution Map' to find the best dark-sky locations near you for the perfect stargazing trip. The app also supports telescope control, allowing you to point your hardware directly at objects selected in the interface. Capture stunning astrophotography with our specialized camera mode that optimizes long exposures and reduces digital noise. Join our community of amateur astronomers to share your sightings and participate in global citizen-science projects.",
     "size": 142.0,
-    "reviews": 4200,
+    "reviews": "4.2k",
     "ratingAvg": 4.6,
-    "downloads": 120000,
+    "downloads": "120k",
     "ratings": [
       { "name": "1 star", "count": 120 },
       { "name": "2 star", "count": 180 },
@@ -252,15 +270,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/budgetbuddy.png",
+    "image": "https://i.ibb.co.com/m5z4hJ3Q/72297872097e5a91fbc51010bce52be8.jpg",
     "title": "BudgetBuddy",
     "companyName": "PennyWise Tech",
     "id": 115,
-    "description": "Take control of your finances with automated expense categorization and savings goals.",
+    "description": "Take control of your finances with automated expense categorization and savings goals. Connect your bank accounts securely to see a complete picture of your net worth and spending habits. Our smart budgeting engine predicts future expenses based on your historical behavior. Set up 'Savings Vaults' for specific purchases like a new car or a dream vacation. The app provides weekly financial health scores and tips to help you save more and spend less. Export your data to CSV or Excel for tax preparation or deeper personal analysis. Our subscription manager identifies unused services and helps you cancel them to save money instantly. Share a household budget with your partner or roommates to track shared expenses and split bills fairly. Your data is protected with bank-level 256-bit AES encryption and regular security audits. Access personalized investment advice and retirement planning tools based on your current age and risk tolerance profile. Join our financial literacy workshops to learn about investing, debt management, and wealth creation.",
     "size": 30.2,
-    "reviews": 7800,
+    "reviews": "7.8k",
     "ratingAvg": 4.4,
-    "downloads": 450000,
+    "downloads": "450k",
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 300 },
@@ -269,18 +287,16 @@
       { "name": "5 star", "count": 4000 }
     ]
   },
-
-  
   {
-    "image": "https://example.com/images/lingualift.png",
+    "image": "https://i.ibb.co.com/mrx4pvVf/3c0787fe9591385284b34e5951d5b279.jpg",
     "title": "LinguaLift",
     "companyName": "Polyglot Labs",
     "id": 116,
-    "description": "Master a new language through immersive stories and AI-powered conversation practice.",
+    "description": "Master a new language through immersive stories and AI-powered conversation practice. Our unique curriculum focuses on real-world usage rather than just rote memorization. Track your fluency progress with weekly assessments and engage in live audio sessions with native speakers. The app features a 'Travel Mode' that provides essential phrases and cultural tips for your next trip. Practice your writing skills with our grammar checker and get instant feedback on your sentence structure. Our spaced-repetition system ensures that you remember new vocabulary for the long term. Join language exchange groups to practice with other learners around the world through voice and video. The app includes thousands of hours of audio content from podcasts to audiobooks to help you develop your listening skills. Earn certificates for every level you complete to showcase your bilingual skills to potential employers. With support for over 40 languages, from Spanish to Japanese, there is no limit to what you can learn. Our 'Offline Mode' allows you to keep learning even during flights or in remote locations without cellular service.",
     "size": 112.4,
-    "reviews": 18200,
+    "reviews": "18.2k",
     "ratingAvg": 4.8,
-    "downloads": 1200000,
+    "downloads": "1.2M",
     "ratings": [
       { "name": "1 star", "count": 200 },
       { "name": "2 star", "count": 400 },
@@ -290,15 +306,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/vividcut.png",
+    "image": "https://i.ibb.co.com/TBXfH72v/2b93c1134f39a08fbe90ab4114d63207.jpg",
     "title": "VividCut Video Editor",
     "companyName": "MotionFrame",
     "id": 117,
-    "description": "Pro-level video editing with multi-track timelines, chroma key, and cinematic transitions.",
+    "description": "Pro-level video editing with multi-track timelines, chroma key, and cinematic transitions. Transform your mobile footage into professional content with advanced color grading tools. Our library of royalty-free music and sound effects allows you to add the perfect audio track to your videos. Use the 'Auto-Subtitle' feature to generate captions in seconds for your social media content. The app supports keyframe animation for total control over motion effects and text overlays. Export your projects in stunning 4K resolution with various frame rates to match your creative vision. Our 'Green Screen' tool allows you to replace backgrounds with any image or video for creative storytelling. Save your favorite editing presets and apply them to future projects to maintain a consistent style across your channel. Collaborate with others on projects using our cloud-based sharing and version control system. Whether you are making a short film or a quick social clip, our intuitive interface makes high-end editing accessible to everyone. Our 'Slow Motion' and 'Time Lapse' tools provide cinematic speed controls that are easy to master.",
     "size": 245.8,
-    "reviews": 5400,
+    "reviews": "5.4k",
     "ratingAvg": 4.5,
-    "downloads": 300000,
+    "downloads": "300k",
     "ratings": [
       { "name": "1 star", "count": 300 },
       { "name": "2 star", "count": 250 },
@@ -308,15 +324,15 @@
     ]
   },
   {
-    "image": "https://example.com/images/dailydigest.png",
+    "image": "https://i.ibb.co.com/S4DWH3n7/e0dc3a257b7ce1fd72d7e64938ca1b8d.jpg",
     "title": "DailyDigest News",
     "companyName": "Global Press",
     "id": 118,
-    "description": "Stay informed with personalized news feeds and breaking alerts from verified sources.",
+    "description": "Stay informed with personalized news feeds and breaking alerts from verified sources. Our AI engine learns your reading preferences to surface the most relevant stories across politics and technology. Listen to audio versions of the top headlines during your commute or while at the gym. The app features a 'Fact Check' badge for articles from high-credibility news organizations. Save long-form articles to read later even when you're offline with our 'Pocket' integration. Participate in moderated discussions on the day's top topics with a community of informed readers. Our 'Daily Summary' provides a 5-minute briefing of everything you need to know before starting your day. Explore diverse perspectives on controversial issues with our 'Balanced Feed' feature that shows viewpoints from across the spectrum. Follow specific industries or niche topics to stay ahead in your professional field. The app is completely ad-free for premium subscribers, ensuring a clean and focused reading experience. Share articles with your network using one-tap integration with all major social media and messaging apps.",
     "size": 28.5,
-    "reviews": 9200,
+    "reviews": "9.2k",
     "ratingAvg": 4.1,
-    "downloads": 850000,
+    "downloads": "850k",
     "ratings": [
       { "name": "1 star", "count": 800 },
       { "name": "2 star", "count": 900 },
@@ -326,13 +342,13 @@
     ]
   },
   {
-    "image": "https://example.com/images/habithero.png",
+    "image": "https://i.ibb.co.com/7Nzb6fks/3f6bfcb918c16c6fd03d08eea9da20a7.jpg",
     "title": "HabitHero",
     "companyName": "SteadyFlow Apps",
     "id": 119,
-    "description": "Build better routines and track your progress with streak challenges and reminder alerts.",
+    "description": "Build better routines and track your progress with streak challenges and reminder alerts. Use our gamified system to turn your daily goals into a rewarding journey with badges and level-ups. Analyze your long-term trends with beautiful data visualizations and heatmaps that show your consistency. Join community groups to stay motivated alongside others who share your aspirations, from fitness to reading. The app includes a 'Negative Habit' tracker to help you identify and break cycles like smoking or excessive screen time. Set up flexible schedules for habits that don't happen every day, such as '3 times a week' or 'every other weekend'. Our 'Focus Mode' prevents you from using distracting apps while you are working on your habits. Sync your data across all your devices and even your smart watch for quick check-ins on the go. Read motivational articles and tips from psychology experts on how to make habits stick for life. Whether you want to drink more water or learn a new instrument, our app provides the structure you need to succeed. Our smart notifications learn the best time to remind you based on your previous activity patterns.",
     "size": 42.1,
-    "reviews": 3100,
+    "reviews": "3.1k",
     "ratingAvg": 4.7,
     "downloads": "1.5m",
     "ratings": [
@@ -344,13 +360,13 @@
     ]
   },
   {
-    "image": "https://example.com/images/tradetreasure.png",
+    "image": "https://i.ibb.co.com/NdmHTy1W/4271319a51a77596915a88ef69ea3dce.jpg",
     "title": "TradeTreasure",
     "companyName": "Bazaar Network",
     "id": 120,
-    "description": "The community marketplace to buy and sell pre-loved items locally with secure payments.",
+    "description": "The community marketplace to buy and sell pre-loved items locally with secure payments. List your items in seconds using our AI-assisted photo uploader that automatically suggests prices. Chat safely with buyers using our in-app messaging and enjoy peace of mind with our verified user system. The app features a 'Local Meetup' map that suggests safe, well-lit public locations for transactions. Browse thousands of categories from vintage fashion to rare electronics and home furniture. Our 'Buyer Protection' guarantee ensures you get exactly what you paid for or your money back. Set up alerts for specific items you are looking for and be the first to know when they are listed. Participate in community auctions to find incredible deals on high-demand products. Our 'Eco-Impact' tracker shows you how much carbon you've saved by buying and selling secondhand. Follow your favorite sellers and get notified whenever they list new treasures from their personal collections. With integrated shipping options, you can also sell to buyers across the country with ease and tracking.",
     "size": 63.9,
-    "reviews": 24000,
+    "reviews": "24k",
     "ratingAvg": 3.8,
     "downloads": "20m",
     "ratings": [
