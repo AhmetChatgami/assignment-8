@@ -2,6 +2,8 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
@@ -40,6 +42,48 @@ const Installation = () => {
     let updatedList = existingList.filter((a) => a.id !== id);
 
     setInstalledApps((prev) => prev.filter((a) => a.id !== id));
+    //   const swalWithBootstrapButtons = Swal.mixin({
+
+    //   customClass: {
+    //     confirmButton: "btn btn-success",
+    //     cancelButton: "btn btn-danger",
+    //   },
+    //   buttonsStyling: false,
+    // });
+    // swalWithBootstrapButtons
+    //   .fire({
+    //     title: "Are you sure?",
+
+    //     icon: "warning",
+    //     showCancelButton: true,
+    //     confirmButtonText: "Yes, uninstall it!",
+    //     cancelButtonText: "No, cancel!",
+    //     reverseButtons: true,
+    //   })
+    //   .then((result) => {
+    //     if (result.isConfirmed) {
+    //       swalWithBootstrapButtons.fire({
+    //         title: "Uninstall!",
+    //         text: "Your app has been uninstalled.",
+    //         icon: "success",
+    //       });
+    //     } else if (
+    //       /* Read more about handling dismissals below */
+    //       result.dismiss === Swal.DismissReason.cancel
+    //     ) {
+    //       swalWithBootstrapButtons.fire({
+    //         title: "Cancelled",
+    //         text: "Your imaginary file is safe :)",
+    //         icon: "error",
+    //       });
+    //     }
+    //   });
+
+    Swal.fire({
+      title: "Uninstalled!",
+      icon: "success",
+      draggable: true,
+    });
     localStorage.setItem("installedApp", JSON.stringify(updatedList));
   };
 

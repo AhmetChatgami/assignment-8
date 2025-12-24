@@ -1,5 +1,8 @@
 import React from "react";
 import { Link } from "react-router";
+import Skeleton from "./Skeleton";
+import downloadIcon from "../assets/icon-downloads.png"
+import ratingIcon from "../assets/icon-ratings.png"
 
 // {
 //     "image": "https://i.ibb.co.com/vv4Gz5LZ/bb9923bd5779f9c3673dfcb722bb3ee4.jpg",
@@ -21,10 +24,10 @@ import { Link } from "react-router";
 //   }
 const AppsCard = ({ app }) => {
  
-  const { image, title, size, ratingAvg } = app;
+  const { image, title, size, ratingAvg, loading, downloads } = app;
   return (
     <Link to={`/app/${app.id}`}>
-    <div className="card bg-base-100 shadow-sm hover:shadow-lg transition-shadow hover:scale-105 transition ease-in-out duration-300">
+    {loading? <Skeleton/>: <div className="card bg-base-100 shadow-sm hover:shadow-lg transition-shadow hover:scale-105 transition ease-in-out duration-300">
       <figure className="h-48 overflow-hidden">
         <img className="w-full object-cover"
           src={image}
@@ -41,11 +44,11 @@ const AppsCard = ({ app }) => {
           title and actions parts
         </p> */}
         <div className="card-actions justify-between">
-          <div className="badge badge-outline bg-green-300"> {size} MB</div>
-          <div className="badge badge-outline bg-amber-400">{ratingAvg} ⭐</div>
+          <div className="badge text-[#00D390] font-semibold bg-[#F1F5E8]"> <img className="h-3" src={downloadIcon}/> {downloads}</div>
+          <div className="badge bg-[#FFF0E1] text-[#FF8811] font-semibold"> <img className="h-3" src={ratingIcon} />{ratingAvg}</div>
         </div>
       </div>
-    </div>
+    </div>}
     </Link>
   );
 };

@@ -4,6 +4,9 @@ import useApps from "../Hooks/useApps";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import reviewIcon from "../assets/icon-review.png";
+import Swal from "sweetalert2";
+import withReactContent from "sweetalert2-react-content";
+
 import {
   Bar,
   BarChart,
@@ -14,17 +17,25 @@ import {
   XAxis,
   YAxis,
 } from "recharts";
-import App from "../App";
 
+import Skeleton from "./Skeleton";
+
+
+const MySwal = withReactContent(Swal);
 const AppsDetails = () => {
   const { id } = useParams();
-  const { appsData, loading, error } = useApps();
+  const { appsData, loading } = useApps();
   const appDetails = appsData.find((a) => String(a.id) === id);
   console.log(appDetails);
 
   if (loading) {
-    return <div>Loading...</div>;
+    return (
+      <div>
+        <Skeleton count="1" />
+      </div>
+    );
   }
+
   const {
     image,
     title,
@@ -37,11 +48,17 @@ const AppsDetails = () => {
   } = appDetails || {};
 
   const handleInstall = () => {
+    Swal.fire("App Installed!");
     const existingList = JSON.parse(localStorage.getItem("installedApp"));
     let updatedList = [];
     if (existingList) {
       const isDuplicate = existingList.some((a) => a.id === appDetails.id);
-      if (isDuplicate) return alert("App is proceed to install.");
+      if (isDuplicate) return Swal.fire({
+          icon: "error",
+          title: "Oops...",
+          text: "App is already installed!",
+          
+        });
 
       updatedList = [...existingList, appDetails];
     } else {
@@ -53,30 +70,7 @@ const AppsDetails = () => {
   return (
     // App Details Section
     <div>
-      {/* <div className="card bg-base-100 shadow-sm hover:shadow-lg transition-shadow duration-300">
-        <figure className="h-48 overflow-hidden">
-          <img className="w-full object-cover" src={image} alt={title} />
-        </figure>
-        <div className="card-body">
-          <h2 className="card-title">{title}</h2>
-          <p>
-          A card component has a figure, a body part, and inside body there are
-          title and actions parts
-        </p>
-          <div className="card-actions justify-between">
-            <div className="badge badge-outline bg-green-300"> {size} MB</div>
-            <div className="badge badge-outline bg-amber-400">
-              {ratingAvg} ⭐
-            </div>
-          </div>
-          <button
-            onClick={handleInstall}
-            className="btn hover:bg-green-600 hover:text-white transition duration-400 mx-auto"
-          >
-            Install Now
-          </button>
-        </div>
-      </div> */}
+    
       <div className="card lg:card-side">
         <figure className="h-80 w-80 overflow-hidden">
           <img src={image} alt="title" />
@@ -112,7 +106,9 @@ const AppsDetails = () => {
           </div>
 
           <div className="card-actions justify mt-4">
-            <Link to='/installation'  onClick={handleInstall}
+            <Link
+              to="/installation"
+              onClick={handleInstall}
               className="btn bg-[#00D390] text-white"
             >
               Install Now ({size} MB)

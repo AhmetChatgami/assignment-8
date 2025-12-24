@@ -4,9 +4,10 @@ import AppsCard from "./AppsCard";
 import { Link } from "react-router";
 import NotFound from "./notFound";
 import appError from "../assets/App-Error.png";
+import Skeleton from "./Skeleton";
 
 const Apps = () => {
-  const { appsData } = useApps();
+  const { appsData, loading } = useApps();
   const [search, setSearch] = useState("");
 
   const term = search.trim().toLowerCase();
@@ -75,11 +76,11 @@ const Apps = () => {
         </label>
       </div>
 
-      <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
+      {loading? <Skeleton count= "20"/> : <div className="grid grid-cols-1 lg:grid-cols-4 gap-4">
         {searchedApps.map((app) => (
           <AppsCard key={app.id} app={app}></AppsCard>
         ))}
-      </div>
+      </div>}
 
       <div className="flex justify-center">
         <Link to="/installation">

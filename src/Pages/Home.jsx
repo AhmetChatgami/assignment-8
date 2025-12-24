@@ -2,7 +2,7 @@ import React from "react";
 import { Link, useLoaderData } from "react-router";
 import AppsCard from "./AppsCard";
 import useApps from "../Hooks/useApps";
-import googlePlay from "../assets/d8f_GooglePlay_mediumklein.jpg";
+import googlePlay from "../assets/Google_Play_2012-2016_icon.svg.png";
 import appStore from "../assets/App_Store_(iOS).svg.png";
 import banner from "../assets/hero.png";
 import Skeleton from "./Skeleton";
