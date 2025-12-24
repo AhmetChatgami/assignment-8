@@ -1,5 +1,5 @@
 import React from "react";
-import { Link, useLoaderData } from "react-router";
+import { Link } from "react-router";
 import AppsCard from "./AppsCard";
 import useApps from "../Hooks/useApps";
 import googlePlay from "../assets/Google_Play_2012-2016_icon.svg.png";
@@ -8,7 +8,7 @@ import banner from "../assets/hero.png";
 import Skeleton from "./Skeleton";
 const Home = () => {
   // const appsData = useLoaderData();
-  const { appsData, loading, error } = useApps();
+  const { appsData, loading } = useApps();
 
   const featuredApps = appsData.slice(0, 8);
 
@@ -17,7 +17,7 @@ const Home = () => {
       <div className="py-4 pb-8">
         <h1 className="text-4xl font-bold text-center">
           We Build <br />{" "}
-          <span className="linear-from-[#632EE3] to-[#9F62F2] text-[#632EE3]">
+          <span className="text-[#632EE3]">
             Productive
           </span>{" "}
           Apps
@@ -88,15 +88,19 @@ const Home = () => {
         <p className="text-center my">
           Explore All Trending Apps on the Market developed by us.
         </p>
-        {loading? <Skeleton/>: <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-8">
-          {loading ? (
-            <Skeleton />
-          ) : (
-            featuredApps.map((app) => (
-              <AppsCard key={app.id} app={app}></AppsCard>
-            ))
-          )}
-        </div>}
+        {loading ? (
+          <Skeleton />
+        ) : (
+          <div className="grid grid-cols-1 lg:grid-cols-4 gap-4 mt-8">
+            {loading ? (
+              <Skeleton />
+            ) : (
+              featuredApps.map((app) => (
+                <AppsCard key={app.id} app={app}></AppsCard>
+              ))
+            )}
+          </div>
+        )}
 
         <div className="flex justify-center">
           <Link to="/apps">

@@ -3,7 +3,7 @@ import { Link } from "react-router";
 import downloadIcon from "../assets/icon-downloads.png";
 import ratingIcon from "../assets/icon-ratings.png";
 import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
+
 
 const Installation = () => {
   const [installedApps, setInstalledApps] = useState([]);
@@ -14,8 +14,8 @@ const Installation = () => {
   }, []);
 
   const sortedApps = (() => {
-    if (sortApp === "size") {
-      return [...installedApps].sort((a, b) => a.size - b.size);
+    if (sortApp === "downloads") {
+      return [...installedApps].sort((a, b) => b.downloads - a.downloads);
     } else if (sortApp === "ratings") {
       return [...installedApps].sort((a, b) => b.ratingAvg - a.ratingAvg);
     } else {
@@ -23,7 +23,7 @@ const Installation = () => {
     }
   })();
 
-  // const handleInstall = () => {
+ 
   //     const existingList = JSON.parse(localStorage.getItem("installedApp"));
   //     let updatedList = [];
   //     if (existingList) {
@@ -42,43 +42,7 @@ const Installation = () => {
     let updatedList = existingList.filter((a) => a.id !== id);
 
     setInstalledApps((prev) => prev.filter((a) => a.id !== id));
-    //   const swalWithBootstrapButtons = Swal.mixin({
-
-    //   customClass: {
-    //     confirmButton: "btn btn-success",
-    //     cancelButton: "btn btn-danger",
-    //   },
-    //   buttonsStyling: false,
-    // });
-    // swalWithBootstrapButtons
-    //   .fire({
-    //     title: "Are you sure?",
-
-    //     icon: "warning",
-    //     showCancelButton: true,
-    //     confirmButtonText: "Yes, uninstall it!",
-    //     cancelButtonText: "No, cancel!",
-    //     reverseButtons: true,
-    //   })
-    //   .then((result) => {
-    //     if (result.isConfirmed) {
-    //       swalWithBootstrapButtons.fire({
-    //         title: "Uninstall!",
-    //         text: "Your app has been uninstalled.",
-    //         icon: "success",
-    //       });
-    //     } else if (
-    //       /* Read more about handling dismissals below */
-    //       result.dismiss === Swal.DismissReason.cancel
-    //     ) {
-    //       swalWithBootstrapButtons.fire({
-    //         title: "Cancelled",
-    //         text: "Your imaginary file is safe :)",
-    //         icon: "error",
-    //       });
-    //     }
-    //   });
-
+    
     Swal.fire({
       title: "Uninstalled!",
       icon: "success",
@@ -108,13 +72,11 @@ const Installation = () => {
             onChange={(e) => setSortApp(e.target.value)}
           >
             <option value="none">Sort By</option>
-            <option value="size">Sort By Size</option>
+            <option value="downloads">Sort By Downloads</option>
             <option value="ratings">Sort By Ratings</option>
           </select>
         </label>
-        {/* <button className="btn text-white  mt-8 my-6 hover:bg-purple-800 bg-[#632EE3]">
-          Sort Apps
-        </button> */}
+     
       </div>
 
       <div className="space-y-4 mx-auto">
